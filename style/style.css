@@ -1,0 +1,94 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  line-height: 40px;
+  flex-wrap: wrap;
+}
+#section .box2 {
+  background-color: #FAFAFA;
+  padding: 63px 60px;
+}
+@media (max-width: 575px) {
+  #section .box2 {
+    margin-left: 30%;
+  }
+}
+#section h2 {
+  color: #252B42;
+}
+#section p {
+  color: #737373;
+}
+#section h4 {
+  color: #252B42;
+}
+#section span {
+  color: #737373;
+}
+#section .price .color_price {
+  color: #BDBDBD;
+}
+#section .price .color_price2 {
+  color: #23856D;
+}
+#section .button .blue {
+  border-radius: 50%;
+  border: none;
+  background-color: #23A6F0;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+}
+#section .button .green {
+  border: none;
+  border-radius: 50%;
+  background-color: #23856D;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+#section .button .orange {
+  background-color: #E77C40;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+#section .button .darkblue {
+  background-color: #252B42;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+#section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+#section2 .box_text {
+  display: flex;
+  gap: 15px;
+}
+#section2 .box_text h1 {
+  color: red;
+}
+#section2 .box_text .box_item span {
+  color: #252B42;
+  font-size: 20px;
+  font-weight: bold;
+}
+#section2 .box_text .box_item p {
+  color: #737373;
+}/*# sourceMappingURL=style.css.map */
